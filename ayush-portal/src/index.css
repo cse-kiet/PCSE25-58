@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-ayush-light;
+}
+
+.btn-primary {
+  @apply bg-ayush-purple text-white py-2 px-4 rounded-lg hover:bg-opacity-90 transition-all;
+}
+
+.input-field {
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ayush-purple;
+}
+
+.card {
+  @apply bg-white p-4 rounded-lg shadow-sm;
+}
